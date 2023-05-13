@@ -1,0 +1,32 @@
+
+header{
+  background-color: white;
+  padding: 0;
+  border-bottom: 2px solid rgb(212, 171, 59);
+  border-top: 2px solid rgb(212, 171, 59);
+}
+a{
+  color: red;
+}
+a:hover{
+  background-color: rgba(255, 0, 0, 0.945);
+  color: white;
+}
+.container1{
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+a.logo{
+  font-weight: bold;
+  padding: 1rem;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+}
+nav ul li a{
+  padding: 1rem;
+  display: inline-block;
+}
+
